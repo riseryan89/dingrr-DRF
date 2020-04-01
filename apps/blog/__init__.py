@@ -1,0 +1,1 @@
+from apps.blog.apps import *

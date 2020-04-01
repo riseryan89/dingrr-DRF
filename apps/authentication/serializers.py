@@ -11,8 +11,8 @@ class GroupSerializer(serializers.HyperlinkedModelSerializer):
 
 
 class UserSerializer(serializers.HyperlinkedModelSerializer):
-    groups = serializers.HyperlinkedRelatedField(many=True, view_name='auth:user-detail', read_only=True)
+    groups = serializers.HyperlinkedRelatedField(many=True, view_name='authentication:user-detail', read_only=True)
     class Meta:
         model = User
         fields = ['url', 'username', 'email', 'groups', 'date_joined']
-        extra_kwargs = {'url': {'view_name': 'auth:user-detail'}}
+        extra_kwargs = {'url': {'view_name': 'authentication:user-detail'}}

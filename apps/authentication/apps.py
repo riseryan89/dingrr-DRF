@@ -2,11 +2,10 @@ from django.apps import AppConfig
 
 
 class AuthAppConfig(AppConfig):
-    name = 'dingrr.apps.auth'
-    label = 'auth'
+    name = 'apps.authentication'
+    label = 'authentication'
     verbose_name = 'Authentication'
 
     def ready(self):
         pass
 
-default_app_config = 'apps.auth.AuthAppConfig'
