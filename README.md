@@ -23,7 +23,7 @@
 *REMEMBER*
 THIS IS A REAL WORLD PROJECT. DO NOT FORGET TO CHANGE ALL DETAILS BEFORE USE.
 YOU WILL BE REQUIRED TO HAVE .kye_store file. The formate should be like below;
-'''python
+```python
 [THIS_IS_INTERNAL_USE_ONLY]
 NEVER_SHARE = Please
 NEVER_UPLOAD = Anywhere
@@ -39,4 +39,4 @@ PW = your_pw
 CHARSET = utf8mb4
 DB_NAME = your_db
 
-'''
+```
