@@ -1,5 +1,6 @@
 ## 딩그르르 REAL WORLD DJANGO REST FRAMEWORK
 
+#### BLOG POSTS
 1. [블로그 #1 - 프로젝트 생성편](https://dingrr.com/blog/post/rwdrfp-real-world-drf-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%83%84%EC%83%9D)
 2. [블로그 #2 - 프로젝트 구조](https://dingrr.com/blog/post/rwdrfp-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EA%B5%AC%EC%A1%B0)
 
